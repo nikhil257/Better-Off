@@ -109,6 +109,7 @@ nav a{
     animation-duration: 20s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    animation-play-state: running;
    
 }
 .text-div h1{
@@ -126,4 +127,78 @@ nav a{
     to{
         transform: translateX(-100%);
     }
+}
+
+
+.page2{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--pre);
+    padding: 10vh 2vw;
+    padding-top:25vh;
+}
+.page2-content{
+    margin-bottom:8vh;
+}
+.para{
+    height:fit-content;
+    overflow: hidden;
+}
+.para p{
+    font-size: 45px;
+    font-family: pp;
+    font-weight:400;
+}
+.page2-content2{
+    padding-bottom: 13vh;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.641);
+}
+
+.page3{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--pre);
+    padding: 0vh 2vw;
+}
+.page3-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.page3-content .left{
+    width: 30%;
+}
+.content-left h1{
+    font-size: 21px;
+    font-family: pp;
+    font-weight: 400;
+    color: var(--sec);
+}
+.content-right{
+    width: 50%;
+    display: flex;
+}
+.right-container{
+    width: 75%;
+}
+.right-container h2{
+    font-size: 23px;
+    font-family: pp;
+    font-weight: 300;
+    color: var(--sec);
+}
+.right-container p{
+    font-size: 23px;
+    font-family: pp;
+    color: rgb(152, 154, 148);
+    padding-top:4vh;
+    margin-bottom: 10vh;
+}
+.content-end{
+    width: 36%;
+}
+.content-end h2{
+    font-family: pp;
+    font-size: 20px;
+    font-weight: 300;
 }
