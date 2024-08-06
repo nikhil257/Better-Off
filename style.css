@@ -35,7 +35,6 @@ nav{
 nav img{
     width: 9%;
     mix-blend-mode: difference;
-    
 }
 nav a{
     text-decoration: none;
@@ -201,4 +200,54 @@ nav a{
     font-family: pp;
     font-size: 20px;
     font-weight: 300;
+}
+
+.page4{
+    /* width: 100%; */
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    padding:5vh 9vh;
+    position: relative;
+}
+.page4-heading{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0;
+    line-height: 0.75;
+}
+.page4-heading h1{
+    font-family: found;
+    font-size: 31.1vw;
+    color: var(--sec);
+}
+.page4-video{
+    width: 32vw;
+    height: 41vh;
+    position: absolute;
+    top:57%;
+    left:36.5%;
+    opacity: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.page4-video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* .cursor{
+    width: 12vw;
+    padding: 2vw ;
+    background-color: rgb(226, 0, 0);
+    border-radius: 10px;
+    position: fixed;
+    z-index: 1000;
+} */
+.page5{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    padding: 5vh 2vw;
 }
